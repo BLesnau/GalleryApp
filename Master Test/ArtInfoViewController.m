@@ -16,7 +16,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *artistName;
 @property (weak, nonatomic) IBOutlet UITextView *artInfo;
 
-
 - (void)configureView;
 
 @end
@@ -28,20 +27,16 @@
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
         
-        // Update the view.
         [self configureView];
     }
 }
 
 - (void)configureView
 {
-    // Update the user interface for the detail item.
-    
     if (self.detailItem) {
         self.artName.text = _detailItem.artName;
         self.artistName.text = _detailItem.artistName;
         self.artInfo.text = _detailItem.infoText;
-        //[self.artInfo sizeToFit];
     }
 }
 
@@ -55,9 +50,6 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-
 
 @end

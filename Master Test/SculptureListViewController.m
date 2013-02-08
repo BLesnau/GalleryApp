@@ -25,9 +25,6 @@
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.artObjects = [[ArtObjectCollectionModel alloc] initEmpty];
     
@@ -38,23 +35,15 @@
     [self.artObjects addObject:obj1];
     [self.artObjects addObject:obj2];
     [self.artObjects addObject:obj3];
-    
-//    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-//    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
-#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-//#warning Potentially incomplete method implementation.
-    // Return the number of sections.
     return 1;
 }
 
@@ -73,10 +62,19 @@
     cell.textLabel.text = artObj.artName;
     cell.detailTextLabel.text = artObj.artistName;
     
-    // Configure the cell...
-    
     return cell;
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        ArtObject *object = [self.artObjects getObjectAtIndex:indexPath.row];
+        [[segue destinationViewController] setDetailItem:object];
+    }
+}
+
+#pragma mark - Reference Code
 
 /*
 // Override to support conditional editing of the table view.
@@ -85,9 +83,7 @@
     // Return NO if you do not want the specified item to be editable.
     return YES;
 }
-*/
 
-/*
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -99,39 +95,25 @@
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
 }
-*/
 
-/*
+
 // Override to support rearranging the table view.
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
 {
 }
-*/
 
-/*
 // Override to support conditional rearranging of the table view.
 - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the item to be re-orderable.
     return YES;
 }
-*/
 
-#pragma mark - Table view delegate
-
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-//{    
-//    MyDetailViewController *detailViewController = [[MyDetailViewController alloc] init];
-//    [self.navigationController pushViewController:detailViewController animated:YES];
-//}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        ArtObject *object = [self.artObjects getObjectAtIndex:indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
-    }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{    
+    MyDetailViewController *detailViewController = [[MyDetailViewController alloc] init];
+    [self.navigationController pushViewController:detailViewController animated:YES];
 }
+ */
 
 @end

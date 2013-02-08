@@ -35,8 +35,8 @@
 		A5E5A79E16C35CBB0025569E /* ArtObjectCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtObjectCollectionModel.m; path = "Master Test/ArtObjectCollectionModel.m"; sourceTree = "<group>"; };
 		A5E5A7A016C361320025569E /* ArtObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtObject.h; path = "Master Test/ArtObject.h"; sourceTree = "<group>"; };
 		A5E5A7A116C361320025569E /* ArtObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtObject.m; path = "Master Test/ArtObject.m"; sourceTree = "<group>"; };
-		A5E5A7A316C3877E0025569E /* ArtInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtInfoViewController.h; path = "Master Test/ArtInfoViewController.h"; sourceTree = "<group>"; };
-		A5E5A7A416C3877E0025569E /* ArtInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtInfoViewController.m; path = "Master Test/ArtInfoViewController.m"; sourceTree = "<group>"; };
+		A5E5A7A316C3877E0025569E /* ArtInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtInfoViewController.h; sourceTree = "<group>"; };
+		A5E5A7A416C3877E0025569E /* ArtInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtInfoViewController.m; sourceTree = "<group>"; };
 		A5EE77C516C0CEC70060A1A5 /* Master Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Master Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EE77C816C0CEC70060A1A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5EE77CA16C0CEC70060A1A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,16 +45,16 @@
 		A5EE77D216C0CEC70060A1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5EE77D416C0CEC70060A1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5EE77D616C0CEC70060A1A5 /* Master Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Master Test-Prefix.pch"; sourceTree = "<group>"; };
-		A5EE77D716C0CEC70060A1A5 /* MasterTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterTestAppDelegate.h; sourceTree = "<group>"; };
-		A5EE77D816C0CEC70060A1A5 /* MasterTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterTestAppDelegate.m; sourceTree = "<group>"; };
+		A5EE77D716C0CEC70060A1A5 /* MasterTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterTestAppDelegate.h; path = "Master Test/MasterTestAppDelegate.h"; sourceTree = "<group>"; };
+		A5EE77D816C0CEC70060A1A5 /* MasterTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterTestAppDelegate.m; path = "Master Test/MasterTestAppDelegate.m"; sourceTree = "<group>"; };
 		A5EE77DA16C0CEC70060A1A5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A5EE77DC16C0CEC70060A1A5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A5EE77DE16C0CEC70060A1A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A5EE77E116C0CEC70060A1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A5EE77E316C0CEC70060A1A5 /* MasterTestMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterTestMasterViewController.h; sourceTree = "<group>"; };
-		A5EE77E416C0CEC70060A1A5 /* MasterTestMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterTestMasterViewController.m; sourceTree = "<group>"; };
-		A5EE77E616C0CEC70060A1A5 /* MasterTestDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterTestDetailViewController.h; sourceTree = "<group>"; };
-		A5EE77E716C0CEC70060A1A5 /* MasterTestDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterTestDetailViewController.m; sourceTree = "<group>"; };
+		A5EE77E316C0CEC70060A1A5 /* MasterTestMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterTestMasterViewController.h; path = "Master Test/MasterTestMasterViewController.h"; sourceTree = "<group>"; };
+		A5EE77E416C0CEC70060A1A5 /* MasterTestMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterTestMasterViewController.m; path = "Master Test/MasterTestMasterViewController.m"; sourceTree = "<group>"; };
+		A5EE77E616C0CEC70060A1A5 /* MasterTestDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterTestDetailViewController.h; path = "Master Test/MasterTestDetailViewController.h"; sourceTree = "<group>"; };
+		A5EE77E716C0CEC70060A1A5 /* MasterTestDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterTestDetailViewController.m; path = "Master Test/MasterTestDetailViewController.m"; sourceTree = "<group>"; };
 		A5EE782916C0DB170060A1A5 /* SculptureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SculptureListViewController.h; sourceTree = "<group>"; };
 		A5EE782A16C0DB170060A1A5 /* SculptureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SculptureListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,17 +74,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A5EE77BC16C0CEC60060A1A5 = {
+		A5D1E82816C58B9D004D8B8C /* Reference Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5E5A7A316C3877E0025569E /* ArtInfoViewController.h */,
-				A5E5A7A416C3877E0025569E /* ArtInfoViewController.m */,
+				A5EE77D716C0CEC70060A1A5 /* MasterTestAppDelegate.h */,
+				A5EE77D816C0CEC70060A1A5 /* MasterTestAppDelegate.m */,
+				A5EE77E316C0CEC70060A1A5 /* MasterTestMasterViewController.h */,
+				A5EE77E416C0CEC70060A1A5 /* MasterTestMasterViewController.m */,
+				A5EE77E616C0CEC70060A1A5 /* MasterTestDetailViewController.h */,
+				A5EE77E716C0CEC70060A1A5 /* MasterTestDetailViewController.m */,
+			);
+			name = "Reference Files";
+			sourceTree = "<group>";
+		};
+		A5D1E82916C58C78004D8B8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				A5E5A7A016C361320025569E /* ArtObject.h */,
 				A5E5A7A116C361320025569E /* ArtObject.m */,
 				A5E5A79D16C35CBB0025569E /* ArtObjectCollectionModel.h */,
 				A5E5A79E16C35CBB0025569E /* ArtObjectCollectionModel.m */,
-				A5E42C2216C21C9E00748B2E /* MapKit.framework */,
-				A5EE77CE16C0CEC70060A1A5 /* Master Test */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A5EE77BC16C0CEC60060A1A5 = {
+			isa = PBXGroup;
+			children = (
+				A5EE77E016C0CEC70060A1A5 /* MainStoryboard.storyboard */,
+				A5D1E82916C58C78004D8B8C /* Models */,
+				A5EE77CF16C0CEC70060A1A5 /* Supporting Files */,
+				A5D1E82816C58B9D004D8B8C /* Reference Files */,
+				A5EE77CE16C0CEC70060A1A5 /* Controllers */,
 				A5EE77C716C0CEC70060A1A5 /* Frameworks */,
 				A5EE77C616C0CEC70060A1A5 /* Products */,
 			);
@@ -101,6 +122,7 @@
 		A5EE77C716C0CEC70060A1A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5E42C2216C21C9E00748B2E /* MapKit.framework */,
 				A5EE77C816C0CEC70060A1A5 /* UIKit.framework */,
 				A5EE77CA16C0CEC70060A1A5 /* Foundation.framework */,
 				A5EE77CC16C0CEC70060A1A5 /* CoreGraphics.framework */,
@@ -108,22 +130,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5EE77CE16C0CEC70060A1A5 /* Master Test */ = {
+		A5EE77CE16C0CEC70060A1A5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A5EE77D716C0CEC70060A1A5 /* MasterTestAppDelegate.h */,
-				A5EE77D816C0CEC70060A1A5 /* MasterTestAppDelegate.m */,
-				A5EE77E016C0CEC70060A1A5 /* MainStoryboard.storyboard */,
-				A5EE77E316C0CEC70060A1A5 /* MasterTestMasterViewController.h */,
-				A5EE77E416C0CEC70060A1A5 /* MasterTestMasterViewController.m */,
-				A5EE77E616C0CEC70060A1A5 /* MasterTestDetailViewController.h */,
-				A5EE77E716C0CEC70060A1A5 /* MasterTestDetailViewController.m */,
-				A5EE77CF16C0CEC70060A1A5 /* Supporting Files */,
+				A5E5A7A316C3877E0025569E /* ArtInfoViewController.h */,
+				A5E5A7A416C3877E0025569E /* ArtInfoViewController.m */,
 				A5EE782916C0DB170060A1A5 /* SculptureListViewController.h */,
 				A5EE782A16C0DB170060A1A5 /* SculptureListViewController.m */,
 				A5E42C2416C2226500748B2E /* MapViewController.h */,
 				A5E42C2516C2226500748B2E /* MapViewController.m */,
 			);
+			name = Controllers;
 			path = "Master Test";
 			sourceTree = "<group>";
 		};
@@ -139,6 +156,7 @@
 				A5EE77DE16C0CEC70060A1A5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = "Master Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +255,7 @@
 				A5EE77E116C0CEC70060A1A5 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = "Master Test";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
