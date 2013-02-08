@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A5E42C2316C21C9E00748B2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E42C2216C21C9E00748B2E /* MapKit.framework */; };
-		A5E42C2616C2226500748B2E /* MyMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E42C2516C2226500748B2E /* MyMapViewController.m */; };
+		A5E42C2616C2226500748B2E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E42C2516C2226500748B2E /* MapViewController.m */; };
 		A5E5A79F16C35CBB0025569E /* ArtObjectCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E5A79E16C35CBB0025569E /* ArtObjectCollectionModel.m */; };
 		A5E5A7A216C361320025569E /* ArtObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E5A7A116C361320025569E /* ArtObject.m */; };
-		A5E5A7A516C3877E0025569E /* MyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E5A7A416C3877E0025569E /* MyDetailViewController.m */; };
+		A5E5A7A516C3877E0025569E /* ArtInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E5A7A416C3877E0025569E /* ArtInfoViewController.m */; };
 		A5EE77C916C0CEC70060A1A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EE77C816C0CEC70060A1A5 /* UIKit.framework */; };
 		A5EE77CB16C0CEC70060A1A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EE77CA16C0CEC70060A1A5 /* Foundation.framework */; };
 		A5EE77CD16C0CEC70060A1A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EE77CC16C0CEC70060A1A5 /* CoreGraphics.framework */; };
@@ -24,19 +24,19 @@
 		A5EE77E216C0CEC70060A1A5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EE77E016C0CEC70060A1A5 /* MainStoryboard.storyboard */; };
 		A5EE77E516C0CEC70060A1A5 /* MasterTestMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EE77E416C0CEC70060A1A5 /* MasterTestMasterViewController.m */; };
 		A5EE77E816C0CEC70060A1A5 /* MasterTestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EE77E716C0CEC70060A1A5 /* MasterTestDetailViewController.m */; };
-		A5EE782B16C0DB170060A1A5 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EE782A16C0DB170060A1A5 /* MyTableViewController.m */; };
+		A5EE782B16C0DB170060A1A5 /* SculptureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EE782A16C0DB170060A1A5 /* SculptureListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5E42C2216C21C9E00748B2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		A5E42C2416C2226500748B2E /* MyMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapViewController.h; sourceTree = "<group>"; };
-		A5E42C2516C2226500748B2E /* MyMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapViewController.m; sourceTree = "<group>"; };
+		A5E42C2416C2226500748B2E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A5E42C2516C2226500748B2E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		A5E5A79D16C35CBB0025569E /* ArtObjectCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtObjectCollectionModel.h; path = "Master Test/ArtObjectCollectionModel.h"; sourceTree = "<group>"; };
 		A5E5A79E16C35CBB0025569E /* ArtObjectCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtObjectCollectionModel.m; path = "Master Test/ArtObjectCollectionModel.m"; sourceTree = "<group>"; };
 		A5E5A7A016C361320025569E /* ArtObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtObject.h; path = "Master Test/ArtObject.h"; sourceTree = "<group>"; };
 		A5E5A7A116C361320025569E /* ArtObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtObject.m; path = "Master Test/ArtObject.m"; sourceTree = "<group>"; };
-		A5E5A7A316C3877E0025569E /* MyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyDetailViewController.h; path = "Master Test/MyDetailViewController.h"; sourceTree = "<group>"; };
-		A5E5A7A416C3877E0025569E /* MyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyDetailViewController.m; path = "Master Test/MyDetailViewController.m"; sourceTree = "<group>"; };
+		A5E5A7A316C3877E0025569E /* ArtInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtInfoViewController.h; path = "Master Test/ArtInfoViewController.h"; sourceTree = "<group>"; };
+		A5E5A7A416C3877E0025569E /* ArtInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArtInfoViewController.m; path = "Master Test/ArtInfoViewController.m"; sourceTree = "<group>"; };
 		A5EE77C516C0CEC70060A1A5 /* Master Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Master Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EE77C816C0CEC70060A1A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5EE77CA16C0CEC70060A1A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,8 +55,8 @@
 		A5EE77E416C0CEC70060A1A5 /* MasterTestMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterTestMasterViewController.m; sourceTree = "<group>"; };
 		A5EE77E616C0CEC70060A1A5 /* MasterTestDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterTestDetailViewController.h; sourceTree = "<group>"; };
 		A5EE77E716C0CEC70060A1A5 /* MasterTestDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterTestDetailViewController.m; sourceTree = "<group>"; };
-		A5EE782916C0DB170060A1A5 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
-		A5EE782A16C0DB170060A1A5 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		A5EE782916C0DB170060A1A5 /* SculptureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SculptureListViewController.h; sourceTree = "<group>"; };
+		A5EE782A16C0DB170060A1A5 /* SculptureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SculptureListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 		A5EE77BC16C0CEC60060A1A5 = {
 			isa = PBXGroup;
 			children = (
-				A5E5A7A316C3877E0025569E /* MyDetailViewController.h */,
-				A5E5A7A416C3877E0025569E /* MyDetailViewController.m */,
+				A5E5A7A316C3877E0025569E /* ArtInfoViewController.h */,
+				A5E5A7A416C3877E0025569E /* ArtInfoViewController.m */,
 				A5E5A7A016C361320025569E /* ArtObject.h */,
 				A5E5A7A116C361320025569E /* ArtObject.m */,
 				A5E5A79D16C35CBB0025569E /* ArtObjectCollectionModel.h */,
@@ -119,10 +119,10 @@
 				A5EE77E616C0CEC70060A1A5 /* MasterTestDetailViewController.h */,
 				A5EE77E716C0CEC70060A1A5 /* MasterTestDetailViewController.m */,
 				A5EE77CF16C0CEC70060A1A5 /* Supporting Files */,
-				A5EE782916C0DB170060A1A5 /* MyTableViewController.h */,
-				A5EE782A16C0DB170060A1A5 /* MyTableViewController.m */,
-				A5E42C2416C2226500748B2E /* MyMapViewController.h */,
-				A5E42C2516C2226500748B2E /* MyMapViewController.m */,
+				A5EE782916C0DB170060A1A5 /* SculptureListViewController.h */,
+				A5EE782A16C0DB170060A1A5 /* SculptureListViewController.m */,
+				A5E42C2416C2226500748B2E /* MapViewController.h */,
+				A5E42C2516C2226500748B2E /* MapViewController.m */,
 			);
 			path = "Master Test";
 			sourceTree = "<group>";
@@ -212,11 +212,11 @@
 				A5EE77D916C0CEC70060A1A5 /* MasterTestAppDelegate.m in Sources */,
 				A5EE77E516C0CEC70060A1A5 /* MasterTestMasterViewController.m in Sources */,
 				A5EE77E816C0CEC70060A1A5 /* MasterTestDetailViewController.m in Sources */,
-				A5EE782B16C0DB170060A1A5 /* MyTableViewController.m in Sources */,
-				A5E42C2616C2226500748B2E /* MyMapViewController.m in Sources */,
+				A5EE782B16C0DB170060A1A5 /* SculptureListViewController.m in Sources */,
+				A5E42C2616C2226500748B2E /* MapViewController.m in Sources */,
 				A5E5A79F16C35CBB0025569E /* ArtObjectCollectionModel.m in Sources */,
 				A5E5A7A216C361320025569E /* ArtObject.m in Sources */,
-				A5E5A7A516C3877E0025569E /* MyDetailViewController.m in Sources */,
+				A5E5A7A516C3877E0025569E /* ArtInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

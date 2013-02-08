@@ -10,7 +10,7 @@
 
 @class ArtObject;
 
-@interface MyDetailViewController : UIViewController
+@interface ArtInfoViewController : UIViewController
 
 @property (strong, nonatomic) ArtObject *detailItem;
 

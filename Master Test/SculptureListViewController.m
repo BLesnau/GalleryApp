@@ -6,18 +6,18 @@
 //  Copyright (c) 2013 Vigilante Panda. All rights reserved.
 //
 
-#import "MyTableViewController.h"
+#import "SculptureListViewController.h"
 #import "ArtObjectCollectionModel.h"
 #import "ArtObject.h"
-#import "MyDetailViewController.h"
+#import "ArtInfoViewController.h"
 
-@interface MyTableViewController ()
+@interface SculptureListViewController ()
 
 @property ArtObjectCollectionModel *artObjects;
 
 @end
 
-@implementation MyTableViewController
+@implementation SculptureListViewController
 
 - (void)viewDidLoad
 {
@@ -32,7 +32,7 @@
     self.artObjects = [[ArtObjectCollectionModel alloc] initEmpty];
     
     ArtObject *obj1 = [[ArtObject alloc] initWithImage:@"ImagePath" andArt:@"Sculpture 1" andArtist:@"Bobby Bobberson" andInfo:@"This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot!"];
-    ArtObject *obj2 = [[ArtObject alloc] initWithImage:@"ImagePath" andArt:@"Sculpture 2" andArtist:@"Ricky Bobby" andInfo:@"This is great art!"];
+    ArtObject *obj2 = [[ArtObject alloc] initWithImage:@"ImagePath" andArt:@"Sculpture 2" andArtist:@"Ricky Bobby" andInfo:@"This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot! This is awesome art! And I really really like it and it is cool! I am making an app, so that's pretty cool. I just need a lot of text here. Like, a loooooot!"];
     ArtObject *obj3 = [[ArtObject alloc] initWithImage:@"ImagePath" andArt:@"Sculpture 3" andArtist:@"Cool Artist" andInfo:@"This is super art!"];
     
     [self.artObjects addObject:obj1];
@@ -67,6 +67,11 @@
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    ArtObject *artObj = [self.artObjects getObjectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = artObj.artName;
+    cell.detailTextLabel.text = artObj.artistName;
     
     // Configure the cell...
     

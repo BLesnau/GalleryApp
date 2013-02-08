@@ -6,22 +6,22 @@
 //  Copyright (c) 2013 Vigilante Panda. All rights reserved.
 //
 
-#import "MyDetailViewController.h"
+#import "ArtInfoViewController.h"
 #import "ArtObject.h"
 
-@interface MyDetailViewController ()
+@interface ArtInfoViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *artImage;
 @property (weak, nonatomic) IBOutlet UILabel *artName;
 @property (weak, nonatomic) IBOutlet UILabel *artistName;
-@property (weak, nonatomic) IBOutlet UILabel *artInfo;
+@property (weak, nonatomic) IBOutlet UITextView *artInfo;
 
 
 - (void)configureView;
 
 @end
 
-@implementation MyDetailViewController
+@implementation ArtInfoViewController
 
 - (void)setDetailItem:(ArtObject*)newDetailItem
 {
@@ -41,6 +41,7 @@
         self.artName.text = _detailItem.artName;
         self.artistName.text = _detailItem.artistName;
         self.artInfo.text = _detailItem.infoText;
+        //[self.artInfo sizeToFit];
     }
 }
 

@@ -7,9 +7,9 @@
 //
 
 #import <MapKit/MapKit.h>
-#import "MyMapViewController.h"
+#import "MapViewController.h"
 
-@interface MyMapViewController ()
+@interface MapViewController ()
 
 @property (weak, nonatomic) IBOutlet MKMapView *map;
 
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation MyMapViewController
+@implementation MapViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
