@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5D1E82C16C8A178004D8B8C /* upArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D1E82A16C8A178004D8B8C /* upArrow.png */; };
+		A5D1E82D16C8A178004D8B8C /* upArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D1E82B16C8A178004D8B8C /* upArrow@2x.png */; };
 		A5E42C2316C21C9E00748B2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E42C2216C21C9E00748B2E /* MapKit.framework */; };
 		A5E42C2616C2226500748B2E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E42C2516C2226500748B2E /* MapViewController.m */; };
 		A5E5A79F16C35CBB0025569E /* ArtObjectCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E5A79E16C35CBB0025569E /* ArtObjectCollectionModel.m */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5D1E82A16C8A178004D8B8C /* upArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upArrow.png; sourceTree = "<group>"; };
+		A5D1E82B16C8A178004D8B8C /* upArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upArrow@2x.png"; sourceTree = "<group>"; };
 		A5E42C2216C21C9E00748B2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A5E42C2416C2226500748B2E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		A5E42C2516C2226500748B2E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
@@ -43,7 +47,7 @@
 		A5EE77CC16C0CEC70060A1A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A5EE77D016C0CEC70060A1A5 /* Master Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Master Test-Info.plist"; sourceTree = "<group>"; };
 		A5EE77D216C0CEC70060A1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A5EE77D416C0CEC70060A1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5EE77D416C0CEC70060A1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Master Test/main.m"; sourceTree = "<group>"; };
 		A5EE77D616C0CEC70060A1A5 /* Master Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Master Test-Prefix.pch"; sourceTree = "<group>"; };
 		A5EE77D716C0CEC70060A1A5 /* MasterTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterTestAppDelegate.h; path = "Master Test/MasterTestAppDelegate.h"; sourceTree = "<group>"; };
 		A5EE77D816C0CEC70060A1A5 /* MasterTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterTestAppDelegate.m; path = "Master Test/MasterTestAppDelegate.m"; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 		A5EE77BC16C0CEC60060A1A5 = {
 			isa = PBXGroup;
 			children = (
+				A5EE77D416C0CEC70060A1A5 /* main.m */,
 				A5EE77E016C0CEC70060A1A5 /* MainStoryboard.storyboard */,
 				A5D1E82916C58C78004D8B8C /* Models */,
 				A5EE77CF16C0CEC70060A1A5 /* Supporting Files */,
@@ -147,9 +152,10 @@
 		A5EE77CF16C0CEC70060A1A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5D1E82A16C8A178004D8B8C /* upArrow.png */,
+				A5D1E82B16C8A178004D8B8C /* upArrow@2x.png */,
 				A5EE77D016C0CEC70060A1A5 /* Master Test-Info.plist */,
 				A5EE77D116C0CEC70060A1A5 /* InfoPlist.strings */,
-				A5EE77D416C0CEC70060A1A5 /* main.m */,
 				A5EE77D616C0CEC70060A1A5 /* Master Test-Prefix.pch */,
 				A5EE77DA16C0CEC70060A1A5 /* Default.png */,
 				A5EE77DC16C0CEC70060A1A5 /* Default@2x.png */,
@@ -216,6 +222,8 @@
 				A5EE77DD16C0CEC70060A1A5 /* Default@2x.png in Resources */,
 				A5EE77DF16C0CEC70060A1A5 /* Default-568h@2x.png in Resources */,
 				A5EE77E216C0CEC70060A1A5 /* MainStoryboard.storyboard in Resources */,
+				A5D1E82C16C8A178004D8B8C /* upArrow.png in Resources */,
+				A5D1E82D16C8A178004D8B8C /* upArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

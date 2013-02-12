@@ -13,7 +13,7 @@
 - (id)initWithImage:(NSString *)imagePath andArt:(NSString *)artName andArtist:(NSString *)artistName andInfo:(NSString *)infoText
 {
     self = [super init];
-    
+     
     self.imagePath = imagePath;
     self.artName = artName;
     self.artistName = artistName;
